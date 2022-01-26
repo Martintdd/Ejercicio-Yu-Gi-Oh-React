@@ -1,0 +1,83 @@
+
+.container-app {
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #ebebeb;
+}
+
+.imagen-logoo {
+  width: 95%;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+}
+
+div .opciones-header {
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+    
+} 
+
+#lista-menu {
+  display: inline-flex;
+  align-items: center;
+}
+
+#lista-menu li {
+  display: inline;
+  text-align: start;
+  margin: auto;
+}
+
+.inputSearch {
+  width: 50% !important;
+}
+
+.containerInput {
+  margin-top: 20px;
+  align-items:center;  
+  display: flex;
+  justify-content:center;
+  padding-bottom: 25px;
+}
+
+.seccion-listado {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.informacionList {
+  display: flex;
+  margin: 15px;
+  margin-left: 150px;
+  align-items: center;
+  width: 75%;
+}
+
+.informacion-detail {
+  display: flex;
+  margin: auto;
+  margin-top: 30px;
+  align-items: center;
+  width: 75%;
+}
+
+.info-cartaDetail {
+  text-align: center;
+  padding: 20px;
+}
+
+.pagination {
+  justify-content: end;
+}
+
+.pagination .btn {
+  font-size: 10px;
+  margin: 1px;
+}
