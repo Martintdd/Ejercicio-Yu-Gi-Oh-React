@@ -1,5 +1,6 @@
-import React from 'react';
+import React from 'react'; 
 
+               /*  SOLO CREADOS LOS BOTON , NO TIENEN FUNCIONALIDAD  */
 
 const Pagination = (props) => {  
   return (

@@ -5,8 +5,6 @@ import { Link, Route, Router, Switch, useHistory } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import Pagination from './Pagination';
-
-
 /* import CardFilter from './CardFilter'; */
 
 
@@ -80,6 +78,7 @@ export default function CardList() {
                                         <li><b>Tipo:</b> {card.type}</li>
                                         <li><b>Precio:</b> ${card.card_prices[0].tcgplayer_price}</li>                                                                            
                                                                             
+                                                {/* LA FUNCION NO REDIRECCIONA COMO DEBERIA */}
                                         <button className="btn btn-dark" onClick={redirect}>Detalle</button>                                 
                                     </ul>
                                 </div>
@@ -95,6 +94,8 @@ export default function CardList() {
                      })
                      
 	            }
+
+                        {/* CREADOS LOS BOTONES PERO SIN FUNCIONES */}
                 <Pagination />
                 </div>              
             </div>

@@ -14,7 +14,7 @@ export default function CardDetail() {
     useEffect (() => {
         fetchApi()
     }, [])
-
+    
     return (
         <React.Fragment>                    
                 { !cards ? 'Loading...' : 

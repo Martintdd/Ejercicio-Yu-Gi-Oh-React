@@ -3,6 +3,7 @@ import image from '../assets/images/Cartas-YuGiOh.jpg';
 import {Link, Route, Switch} from 'react-router-dom';
 import CardDetail from './CardDetail';
 import CardList from './CardList';
+import Graphic from './Graphic';
 
 
 export default function Navbar() {
@@ -24,7 +25,7 @@ export default function Navbar() {
  	                    <Link className="nav-link" to="/CardDetail">                      
                             <button className="btn btn-dark"><span>CARTA FAVORITA</span></button>
 	                    </Link>
-                    </li>                                     
+                    </li>                                                                              
                 </ul>
             </div>
         </nav>
@@ -35,7 +36,7 @@ export default function Navbar() {
             </Route>
             <Route path="/CardList">
                 <CardList />
-            </Route>                      
+            </Route>                                          
         </Switch>           
     </React.Fragment>
   )

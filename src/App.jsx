@@ -6,7 +6,7 @@ export default function App() {
   return (
     <React.Fragment>
         <div className="container-app">
-            <Navbar />            
+            <Navbar />                      
         </div>
     </React.Fragment>
   )

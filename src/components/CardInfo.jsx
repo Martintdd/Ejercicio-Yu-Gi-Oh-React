@@ -1,5 +1,8 @@
 import React from 'react'
 
+
+          /* ERROR EN LA FUNCION NO REDIRECCIONA CORRECTAMENTE */
+
 export default function CardInfo() {
   return (
     <div>
