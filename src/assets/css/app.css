@@ -81,3 +81,23 @@ div .opciones-header {
   font-size: 10px;
   margin: 1px;
 }
+
+.cont-grafico-precios {
+  display: flex;  
+  flex-direction: column-reverse;
+  align-items: center;
+  padding: 20px;
+  margin-top: 50px;
+  
+}
+
+.grafico-precios {
+  background-color: #D8D7D7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px #999999;
+}
+
+.grafico-precios-titulo {
+  text-align: center;
+}

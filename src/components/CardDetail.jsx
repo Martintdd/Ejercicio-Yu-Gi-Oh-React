@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect, useState } from 'react';
-
+import Graphic from './Graphic';
 
 export default function CardDetail() {
 
@@ -37,6 +37,9 @@ export default function CardDetail() {
                                         <p><b>Prototipo:</b> {card.archetype}</p>
                                         <p><b>Precio Ebay:</b> ${card.card_prices[0].ebay_price}</p>
                                     </div>                                                                                
+                                </div>
+                                <div className="cont-grafico-precios">
+                                    <Graphic />
                                 </div>
                             </div>                                                       
                         )    
